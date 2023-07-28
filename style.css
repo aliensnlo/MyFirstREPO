@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.block_text {
+  text-align: center;
+  width: 1201px;
+  font-size: 32px;
+  border-radius: 15px;
+  border: 1px solid #000;
+  margin: 15px 0;
+}
+
+.title {
+  font-size: 48px;
+  text-align: center;
+}
+
+.block_text:nth-child(2) {
+  background-color: black;
+  color: aliceblue;
+}
+
+.block_text:nth-child(3) {
+  color: aliceblue;
+  background-color: red;
+  padding: 65px 0;
+}
