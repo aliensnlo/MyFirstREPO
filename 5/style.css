@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  background: #1abc9c;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  gap: 20px;
+  font-size: 25px;
+}
+
+.logo {
+  margin: 0 70px;
+}
+
+.menu_img {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  margin: 0 70px;
+  gap: 20px;
+}
+
+.main {
+  display: flex;
+}
+
+.right_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 23px;
+  padding: 0 70px;
+}
+
+.right_text:nth-child(1) {
+  font-size: 35px;
+}
+
+.right_text:nth-child(2) {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.block_green {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 0 64px;
+}
+
+.top_text {
+  font-size: 35px;
+}
+
+.img_main2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37.8px;
+  position: relative;
+}
+
+.overlay-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  left: 36px;
+  right: 36px;
+  bottom: 0px;
+  color: white;
+  font-size: 16px;
+  width: 364px;
+}
+
+.footer_menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer_text {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.kontakt {
+  font-size: 35px;
+  margin: 0 0 50px 0;
+  font-weight: 500;
+}
+
+.footer {
+  padding: 84px 70px 76px 70px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer_text {
+  width: 315.649px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-weight: 700;
+}
+
+.main2 {
+  background: #dcffeb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 124px 0;
+}
+
+.footer_text div:nth-child(2) {
+  font-size: 24px;
+  color: gray;
+}
+
+.footer_text:nth-child(4) div:nth-child(3) {
+  color: orangered;
+}
+
+.overlay-text div:nth-child(1) {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  margin: 0 0 5px;
+}
+
+.overlay-text div:nth-child(2) {
+  font-size: 16px;
+  line-height: 125%;
+  margin: 0 0 10px;
+}
