@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 293px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  margin: 5% auto 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  right: -25px;
+  bottom: -25px;
+}
+
+.container_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.red_circle {
+  border-radius: 50%;
+  background-color: red;
+  width: 15px;
+  height: 15px;
+}
+
+.container_nav_left {
+  display: flex;
+  justify-content: space-between;
+  width: 62px;
+}
+
+.container_podnav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 15px 0;
+}
+
+.container_block_middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_button {
+  width: 117px;
+  height: 36px;
+  background-color: red;
+  position: relative;
+}
+
+.right_button {
+  width: 117px;
+  height: 36px;
+  background-color: red;
+  position: relative;
+}
+
+.left_button::after {
+  content: "";
+  border-radius: 50%;
+  background-color: black;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  bottom: -5px;
+  left: -5px;
+}
+
+.right_button::before {
+  content: "";
+  border-radius: 50%;
+  background-color: black;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.bottom_button {
+  margin: 20px auto;
+  width: 85px;
+  height: 51px;
+  background-color: red;
+  position: relative;
+}
+
+.bottom_button::after {
+  content: "555";
+  font-size: 10px;
+  bottom: 20px;
+  position: absolute;
+}
+
+.bottom_button::before {
+  content: "555";
+  font-size: 10px;
+  bottom: 20px;
+  left: 70px;
+  position: absolute;
+}
